@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Grid from './Grid';
 import PlayButtons from './PlayButtons';
+import { Row, Col } from 'reactstrap';
 import './components.css';
 
 // const width = 400;
@@ -113,7 +114,7 @@ class Display extends Component {
                     handlePause={this.handlePause}
                     handleStop={this.handleStop}
                 />
-                <h4>Generations: {this.state.generation}</h4>
+                <h4>Generations: </h4>
             </div>
         );
     }

@@ -9,6 +9,7 @@ class Home extends Component {
         this.state = {}
     }
     render() {
+        console.log('props in home page: ', this.props)
         return (
             <Container className='containerWrapper'>
                 <Row>
